@@ -1,0 +1,79 @@
+/* styles.css */
+body {
+    background-image: url('img.avif');
+    color:#007bff;
+    font-family: Arial, sans-serif;
+    background-color: #a61111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color:rgb(51, 89, 104);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.container h2 {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input {
+    background-color: #8baed3;
+
+    width: 95%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #b03030;
+}
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    background-color:#8baed3;
+    color: rgb(62, 29, 195);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4c60ae;
+}
+
+p {
+    margin-top: 15px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
